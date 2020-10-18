@@ -1,0 +1,203 @@
+Name,Final,Started,County,AcresBurned,PercentContained,Longitude,Latitude,Type,IsActive,CalFireIncident,Location
+Apple Fire,False,2020-07-31T18:08:39Z,Riverside,0,0,-116.9617,33.99139,Wildfire,True,False,"off of Oak Glen Road and Apple Tree Lane, North of Cherry Valley"
+August Complex (includes Doe Fire),False,2020-08-16T20:37:26Z,"Mendocino, Humboldt, Trinity, Tehama, Glenn, Lake, Colusa",1032209,80,-122.673,39.776,Wildfire,True,True," Mendocino, Humboldt, Trinity, Tehama, Glenn, Lake, & Colusa "
+Red Salmon Complex,False,2020-08-18T09:49:34.58Z,Humboldt,0,0,-123.407,41.168,Wildfire,True,False,"near Salmon Mountain, Northeast of Willow Creek"
+Blue Jay Fire,False,2020-08-18T10:16:11Z,Mariposa,0,0,-119.60581,37.84463,Wildfire,True,False,"Near Tioga Road, North of Yosemite Valley "
+North Complex Fire,False,2020-08-18T21:21:53Z,"Plumas, Butte",0,0,-121.22718,39.69072,Wildfire,True,False,Flemmings Sheep Camp
+Dolan Fire,False,2020-08-19T09:23:03Z,Monterey,0,0,-121.602,36.123,Wildfire,True,False,"Dolan Rd and Hwy 1, Ventana Wilderness"
+SQF Complex Fire (Includes Castle Fire and Shotgun Fire) ,False,2020-08-21T17:47:20Z,Tulare,168095,72,-118.47953,36.14549,Wildfire,True,True,East of Giant Sequoia National Monument in Tulare County. 
+Slink Fire,False,2020-09-01T12:38:11Z,Mono,0,0,-119.568,38.568,Wildfire,True,False,"Slinkard Valley, west of Coleville, California"
+Rattlesnake Fire,False,2020-09-03T12:36:39Z,Tulare,0,0,-118.448,36.42,Wildfire,True,False,The Rattlesnake fire is burning in Sequoia Kings Canyon National Parks Wilderness in the Rattlesnake drainage on the upper slope.
+Moraine Fire,False,2020-08-21T21:00:00Z,Tulare,0,0,-118.557,36.718,Wildfire,True,False,"South of Palmer Peak , East of Avalanche Pass Trail on the north side of Moraine Creek"
+Creek Fire,False,2020-09-04T18:21:00Z,"Fresno, Madera",346477,60,-119.261175,37.19147,Wildfire,True,True,"Both sides of the San Joaquin River near Mammoth Pool, Shaver Lake, Big Creek and Huntington Lake"
+El Dorado Fire,False,2020-09-05T12:51:00Z,"San Bernardino, Riverside",0,0,-116.98669,34.08056,Wildfire,True,False,"Oak Glen Rd Road and Potato Canyon Road, West of Oak Glen"
+Bobcat Fire ,False,2020-09-06T14:42:02Z,Los Angeles,0,0,-117.964838,34.244649,Wildfire,True,False,"Northeast of Cogswell Reservoir, San Gabriel Canyon in Los Angeles county. "
+Slater Fire (includes Devil Fire),False,2020-09-08T06:43:00Z,Siskiyou,0,0,-123.44963,41.86889,Wildfire,True,False,"99-97 Cutoff and Yellow Butte Road, North of Mt. Shasta"
+Fork Fire,False,2020-09-08T13:03:25Z,El Dorado,0,0,-120.394,38.99,Wildfire,True,False,"South Fork Road and Trail View, northeast of Pollock Pines in El Dorado County. "
+Bullfrog Fire,False,2020-09-12T13:57:57Z,Fresno,0,0,-119.027309,37.135474,Wildfire,True,False,"Dinkey Lakes and Nelson Lake, SE of Bullfrog Lake"
+Wolf Fire,False,2020-09-22T11:28:09Z,Mariposa,0,0,-119.643,37.882,Wildfire,True,False,north side of Tioga Road and White Wolf campground
+Glass Fire,False,2020-09-27T03:48:00Z,"Napa, Sonoma",67484,97,-122.49745,38.56295,Wildfire,True,True,North Fork Crystal Springs Rd & Crystal Springs Rd
+Bruder Fire,False,2020-10-15T05:40:14Z,San Bernardino,170,92,-117.138078,34.014728,Wildfire,True,True,"Bruder Lane and Helen Drive, South of Redlands"
+Antelope Fire,True,2020-02-17T15:04:08Z,Sierra,102,100,-120.3291855,39.6923001,Wildfire,False,False,"Hwy 49 and Fillippini Road, Sierraville"
+Beegum Fire,True,2020-02-23T08:35:30Z,Tehama,75,100,-122.84722222,40.33583333,Wildfire,False,True,"Off of Highway 36 West and Tedoc Rd, West of Red Bluff"
+Wood Fire,True,2020-02-23T17:50:20Z,Lassen,57,100,-120.49392,40.62155,Wildfire,False,False,"Off Horselake Road and Woodranch Road, East of Susanville"
+Baseball Fire,True,2020-02-25T14:17:21Z,"Glenn, Mendocino",211,100,-122.94111111,39.75638899,Wildfire,False,False,"Off Atchison Creek, East of Covelo"
+Grizzly Fire,True,2020-03-02T14:08:05Z,Glenn,154,100,-122.384532,39.774968,Wildfire,False,True,"Grizzly Flat Recreation Area, west of Orland"
+Carter Fire ,True,2020-04-04T20:22:08Z,Imperial,275,100,-115.5865,32.93432,Wildfire,False,False,"Off Austin Road  and Weaver Road, South of Brawley"
+Red Fire ,True,2020-04-23T20:52:04Z,Tehama,26,100,-122.43905,40.09554,Wildfire,False,True,"Red Bank Road, Southwest of Red Bluff"
+Byron Fire,True,2020-04-27T14:59:04Z,Contra Costa,47,100,-121.595225,37.82066,Wildfire,False,False,"Byron Highway and Bruns Ave, southeast of Byron"
+Interstate 5 Fire,True,2020-05-03T15:52:04Z,Kings,2060,100,-120.106407,36.075003,Wildfire,False,False,"Interstate 5 & Avenal Cutoff, south of Fresno County line"
+Hollister Fire,True,2020-05-07T08:10:19Z,Santa Barbara,156,100,-120.29379,34.47438,Wildfire,False,False,"Hollister Ranch, West of Goleta in Gaviota"
+Candy Fire,True,2020-05-08T14:46:20Z,Butte,17,100,-121.47273,39.42208,Wildfire,False,False,"Candy Cane Ln and Apache Hill Rd, west of Palermo"
+Gilman Fire,True,2020-05-18T13:38:14Z,Riverside,20,100,-117.024114,33.861054,Wildfire,False,True,"Gilman Springs Road and Slegers Street, Southeast of Moreno Valley"
+Spanish Fire ,True,2020-05-22T15:27:09Z,Napa,20,100,-122.403634,38.697834,Wildfire,False,False,"Spanish Valley Trail and Stagecoach Canyon, Northwest of Lake Berryessa"
+Range Fire,True,2020-05-27T19:33:55Z,San Luis Obispo,5000,100,-120.70524,35.34237,Wildfire,False,False,Range M22 Camp Roberts Military Reserve
+Harley Fire,True,2020-05-28T17:08:59Z,Riverside,60,100,-117.34934,33.83167,Wildfire,False,True,"19000 Block of Gustin Road, East of Lake Mathews"
+Horn Fire ,True,2020-06-02T17:01:52Z,Lassen,37,100,-120.288882,40.809323,Wildfire,False,False,"Horn Road and Mail Route Road, east of Ravendale in Lassen County. "
+Smoketree Fire,True,2020-06-02T19:38:16Z,Riverside,129,100,-116.524014,33.782532,Wildfire,False,False,East Murray Canyon Dr and S Toledo Ave
+Wildlife Fire,True,2020-06-03T18:26:25Z,Solano,300,100,-122.042199,38.232281,Wildfire,False,False,Kellogg St and Maple St
+Brock Fire,True,2020-06-04T16:36:17Z,Shasta,15,100,-122.097933,40.837885,Wildfire,False,False,"Lake Shasta, West of Round Mountain"
+Colleen Fire,True,2020-06-04T19:36:47Z,Santa Clara,126,100,-121.851895,37.229703,Wildfire,False,False,"Colleen Dr, South San Jose"
+Karchner Fire,True,2020-06-05T09:04:00Z,Placer,39,100,-121.340239,38.98487,Wildfire,False,True,"Karchner Road and Riosa Road, East of Wheatland"
+Lakeville Fire,True,2020-06-05T16:56:55Z,Sonoma,141,100,-122.549816,38.224849,Wildfire,False,True,"Lakeville Highway and Stage Gulch Road, Southeast of Petaluma"
+McGary Fire ,True,2020-06-05T17:09:00Z,Solano,79,100,-122.156313,38.196893,Wildfire,False,False,"McGary Road and Highway 80, Southwest of Cordelia"
+Gulch Fire,True,2020-06-06T16:19:20Z,Sonoma,107,100,-122.536406,38.216134,Wildfire,False,True,"Stage Gulch Road and  Lakeville Highway, North of Lakeville"
+Quail Fire,True,2020-06-06T16:36:26Z,Solano,1837,100,-122.038208,38.470809,Wildfire,False,True,"Quail Canyon Road and Pleasants Valley Road, Southwest of Winters"
+Willow Fire ,True,2020-06-06T18:00:51Z,Contra Costa,100,100,-122.002811,37.994368,Wildfire,False,False,"Willow Pass Court and Evora Road, Northeast of Concord"
+Hunters Fire,True,2020-06-07T19:15:00Z,Mariposa,85,100,-120.215454,37.61955,Wildfire,False,True, Hunters Valley Road and Detwiler Road in Mariposa County. 
+Sperry Fire,True,2020-06-08T13:55:53Z,Stanislaus,80,100,-121.16483,37.463636,Wildfire,False,True,"Diablo Grande Parkway and Del Puerto Canyon Road, West of Patterson"
+Grand Fire,True,2020-06-08T15:45:17Z,Riverside,27,100,-117.37581,33.638067,Wildfire,False,True,"S Main Divide Road near DeCariso Road, West of Lake Elsinore "
+Bradley Fire ,True,2020-06-08T16:16:07Z,Monterey,230,100,-120.81509,35.94979,Wildfire,False,True,"Sargents Canyon and Alvardo Road, North of Bradley"
+Sierra Fire,True,2020-06-08T17:46:04Z,Riverside,100,100,-117.46036,33.82925,Wildfire,False,False, La Sierra Avenue and Cajalco Road
+Oak Fire,True,2020-06-08T20:50:06.293Z,Riverside,20,100,-116.89655,33.78275,Wildfire,False,True," 45000 Block of Castile Canyon Road, East of San Jacinto in Riverside County is 15 acres."
+Vineyard Fire ,True,2020-06-09T15:22:55Z,Mendocino,151,100,-123.21318,38.89695,Wildfire,False,True,"Highway 128 and Elkhorn Road, South of Yorkville"
+India Fire,True,2020-06-09T21:51:40Z,San Diego,1100,100,-117.47166,33.37579,Wildfire,False,False,"Roblar Rd and Basilone Rd, Camp Pendleton Marine Corps Base"
+Elizabeth Fire,True,2020-06-10T13:11:26Z,Ventura,289,100,-119.17808,34.29475,Wildfire,False,False,"Elizabeth and Foothill Rd, north of Ventura   "
+Soda Fire,True,2020-06-10T14:52:42Z,San Luis Obispo,1672,100,-120.00521,35.35146,Wildfire,False,True,"Hwy 58 and Soda Lake Rd, California Valley"
+Lime Fire,True,2020-06-10T18:30:38Z,Ventura,803,100,-118.77347,34.46182,Wildfire,False,True,"Lime Canyon Rd and Piru Canyon Rd, west of Lake Piru     "
+Skyline Fire,True,2020-06-11T13:08:40Z,San Diego,100,100,-116.7862,32.73044,Wildfire,False,True,Skyline Truck Trail
+Border 7 Fire,True,2020-06-11T16:57:46Z,San Diego,90,100,-116.690712,32.580882,Wildfire,False,True,Marron Valley
+Watt Fire,True,2020-06-11T18:25:12Z,Placer,40,100,-121.378879,38.733421,Wildfire,False,True,PFE Rd and Watt Ave
+Grant Fire,True,2020-06-12T12:41:17Z,Sacramento,5042,100,-121.201927,38.520981,Wildfire,False,True,Grantline Road and Keifer Blvd
+Hog Fire,True,2020-06-12T17:35:38Z,Fresno,533,100,-119.36572,36.82276,Wildfire,False,False,E Trimmer Springs Rd and Pine Flat Lake 
+Cornetts Fire,True,2020-06-13T14:27:51Z,Mariposa,191,100,-120.08522,37.40827,Wildfire,False,True,Cornetts Road and Old Highway South
+Dawson Fire ,True,2020-06-13T18:32:06Z,Riverside,10,100,-117.461925,33.776033,Wildfire,False,True,Dawson Canyon Road and Park Canyon Road 
+Hopland Fire,True,2020-06-13T18:52:54Z,Mendocino,34,100,-80.49163,39.14783,Wildfire,False,True,"Highway 101, southwest of Hopland"
+Avila Fire,True,2020-06-15T16:44:39Z,San Luis Obispo,445,100,-120.69959,35.17977,Wildfire,False,True,"Avila Beach Drive and Hwy 101, East of Avila Beach"
+Bitter Fire ,True,2020-06-16T14:11:55Z,San Benito,895,100,-120.92925,36.3011,Wildfire,False,True,"Highway 25 and Hernandez-Coalinga Road, North of King City"
+Riata Fire ,True,2020-06-16T14:44:53Z,San Luis Obispo,18,100,-120.56823,35.40953,Wildfire,False,True,"5900 Block West Pozo Road near Hwy 58, East of Santa Margarita"
+Walker Fire,True,2020-06-16T16:58:00Z,Calaveras,1455,100,-120.72958,38.07741,Wildfire,False,True,"Walker Trail Road and Hogan Dam Road, North of Copperopolis"
+Nelson Fire ,True,2020-06-17T12:54:12Z,Butte,95,100,-121.60037,39.52408,Wildfire,False,True,"Nelson Ave and 16th St, Oroville"
+Liberty Fire,True,2020-06-17T15:49:46Z,San Joaquin,89,100,-121.20828,38.23432,Wildfire,False,True,"Liberty Rd and Hwy 88, east of Galt"
+Ridge Fire,True,2020-06-17T16:54:46Z,Monterey,83,100,-121.42113,35.9497,Wildfire,False,False,"Plasket Ridge Road and S Coast Ridge Road, North of Gorda"
+Baker Fire,True,2020-06-17T20:22:58Z,Kern,165,100,-118.6894,35.27678,Wildfire,False,False,"Bena Rd and Caliente Bodfish Rd, east of Bakersfield  "
+Nelson Fire,True,2020-06-18T16:56:59Z,Placer,110,100,-121.33956,38.89178,Wildfire,False,True,"Nelson Rd and Rockwell Ln, west of Lincoln"
+Fork Fire,True,2020-06-18T20:28:41Z,Tulare,130,100,-118.845123,36.37085,Wildfire,False,True,"South Fork Dr and Salt Creek Fire Control Rd, East of Three Rivers"
+Teddy Fire,True,2020-06-18T22:33:51Z,Butte,13,100,-121.45372,39.37577,Wildfire,False,True,"Teddy Lane and Bangor Park Rd., Bangor"
+Springs Fire,True,2020-06-19T15:19:44Z,Tulare,217,100,-118.8613,35.89133,Wildfire,False,True,Hot Springs Dr and M-56
+Honcut Fire,True,2020-06-20T14:24:00Z,Butte,89,100,-121.53976,39.36894,Wildfire,False,True,"Palermo Honcut Hwy and Four Junes Way, south of Palermo"
+Quarter Fire,True,2020-06-21T11:33:36Z,Tuolumne,10,100,-120.20316,38.08264,Wildfire,False,False,"Italian Bar Road and Grant Ridge Road, North of Twain Harte"
+Hunter Fire,True,2020-06-21T16:29:28Z,Monterey,195,100,-121.08753,35.90835,Wildfire,False,True,"River Road and Interlake Road, South of Lockwood"
+Stage Fire,True,2020-06-21T21:50:06Z,Monterey,52,100,-121.57407,36.69845,Wildfire,False,True,"  Old Stage Road and Williams Road, Northeast of Salinas"
+Grade Fire ,True,2020-06-22T08:16:27Z,Tulare,1050,100,-119.19677,36.5537,Wildfire,False,True,"Boyd Dr and Rd 168, east of Orosi"
+Rico Fire ,True,2020-06-22T15:55:55Z,Monterey,338,100,-120.87858,35.9789,Wildfire,False,True,"Sargents Canyon Rd and Dead Mans Gulch Rd, southeast of San Ardo"
+River Fire,True,2020-06-22T13:55:00Z,San Luis Obispo,15,100,-120.68326,35.62906,Wildfire,False,False,"River Road and Creston Road, West of Paso Robles"
+Sycamore Fire,True,2020-06-23T08:23:48Z,Fresno,19,100,-119.33439,36.97511,Wildfire,False,True,Sycamore Road and Coyote Drive Southeast of Tollhouse
+R-2 Fire,True,2020-06-23T21:12:11Z,Lassen,563,100,-120.28147,40.43203,Wildfire,False,False,"Highway 395 and Smoke Creek Rod, Northeast of Susanville "
+R-3 Fire,True,2020-06-24T07:49:19Z,Lassen,210,100,-120.04635,40.44793,Wildfire,False,False,Skedaddle Ranch Road and Spencer Basin Road Northeast of Herlong
+58 Fire,True,2020-06-24T17:49:08Z,Riverside,12,100,-115.96594,33.27665,Wildfire,False,True,"Van Buren Street and Avenue 58, Thermal"
+Diablo Fire,True,2020-06-25T06:47:01Z,Stanislaus,202,100,-121.18355,37.46265,Wildfire,False,True,Del Puerto Canyon and Diablo Grande
+Bend Fire,True,2020-06-25T17:28:46Z,San Luis Obispo,263,100,-119.88048,35.30742,Wildfire,False,False,"Belmont Trail and Bend Rd, California Valley "
+Aurora Fire,True,2020-06-26T15:13:24Z,Mono,280,100,-119.00289,38.22554,Wildfire,False,False,"Bodie Rd, east of Bridgeport"
+Poeville Fire,True,2020-06-27T19:08:50Z,State of Nevada,2975,100,-119.81098,39.32596,Wildfire,False,False,Highway 395 Truckee Meadows 
+Pass Fire,True,2020-06-28T13:28:53Z,Merced,2192,100,-121.21912,37.06641,Wildfire,False,True,"Hwy 152 and Dinosaur Point Rd, near Santa Nella"
+Gage Fire,True,2020-06-28T15:58:46Z,San Luis Obispo,33,100,-120.96759,35.69993,Wildfire,False,True,Running Deer Rd and Gage Irving Road
+Muck Fire ,True,2020-06-29T12:35:41Z,Lassen,12,100,-121.2199939,41.0336731,Wildfire,False,True,"Highway 299 and Muck Valley Road, South of Nubieber "
+Avacado Fire,True,2020-06-30T15:43:01Z,Butte,136,100,-121.4319,39.3784,Wildfire,False,True,"Bangor Park Road and Teddy Lane, West of Bangor  "
+Flat Fire,True,2020-06-30T17:40:16Z,Trinity,62,100,-123.437051,40.791509,Wildfire,False,False,"Highway 299W and Mill Creek Road, Southeast of Burnt Ranch  "
+Bena Fire,True,2020-07-01T16:32:50Z,Kern,2900,100,-118.702732,35.310132,Wildfire,False,True,"Bena Road and Caliente Bodfish Road, East of Bakersfield"
+Rowher Fire,True,2020-07-01T16:43:16Z,Los Angeles,648,100,-118.324601,34.542742,Wildfire,False,False,"Spring Canyon Road and Anthony Road, North of Santa Clarita "
+Bonadelle Fire,True,2020-07-02T15:27:03Z,Madera,597,100,-119.9252132,36.9678542,Wildfire,False,False,"Avenue 15 and Road 35, Bonadelle"
+Soda Fire ,True,2020-07-03T14:00:40Z,San Luis Obispo,157,100,-120.053275,35.393889,Wildfire,False,False,"Soda Lake Rd and Culver City Rd, California Valley"
+Mount R Fire,True,2020-07-03T16:29:04Z,San Bernardino,62,100,-117.124353,34.182436,Wildfire,False,False,"Highway 330 and Old City Creek Road, Southwest of Running Springs"
+Sheridan Fire,True,2020-07-04T15:04:41Z,Alameda,108,100,-121.876277,37.536015,Wildfire,False,True,"Sheridan Road, south of Sunol in Santa Clara county. "
+Park Fire,True,2020-07-05T07:13:22Z,Santa Clara,343,100,-121.567505,37.166733,Wildfire,False,True,"East Dunne Avenue and Finley Ridge Road, East of Morgan Hill"
+Crews Fire,True,2020-07-05T14:55:49Z,Santa Clara,5513,100,-121.501532,37.034839,Wildfire,False,True,"Crews Road and Oak Spring Circle, North of Gilroy"
+Soledad Fire,True,2020-07-05T17:18:35Z,Los Angeles,1525,100,-118.328877,34.467915,Wildfire,False,False,"Soledad Canyon Road and Agua Dulce Canyon Rd, South of Agua Dulce "
+Patterson Fire,True,2020-07-06T16:04:20Z,San Joaquin,150,100,-121.53524,37.71984,Wildfire,False,True,"Hwy 580 and Patterson Pass Rd, west of Tracy"
+Mountain Meadow Fire ,True,2020-07-06T18:22:56Z,Solano,75,100,-122.12447,38.21614,Wildfire,False,False,"Mountain Meadows Drive and Cedar Creek Court, Southwest of Fairfield"
+Nail Fire,True,2020-07-07T17:32:13Z,Colusa,25,100,-122.65813,39.35498,Wildfire,False,False,"Fouts Springs, Southwest of Stonyford"
+Tripp Fire ,True,2020-07-09T14:27:09Z,Riverside,10,100,-116.7464168,33.551838,Wildfire,False,True,"Cary Road and Tripp Flats Road, West of Anza "
+Alum Fire,True,2020-07-11T10:50:33Z,Santa Clara,31,100,-121.79349,37.37731,Wildfire,False,True,"Mt Hamilton Rd and Crothers Rd, northeast of San Jose"
+Power Fire,True,2020-07-11T17:57:49Z,Madera,108,100,-119.50307,37.1487,Wildfire,False,True,"Road 222 and Road 235, South of North Fork"
+Elliot Fire,True,2020-07-13T12:55:16Z,Riverside,2,100,-117.108421,33.623968,Wildfire,False,True,"Block Elliot Rd, south of  Winchester"
+Robinson Fire,True,2020-07-13T15:06:35Z,Butte,33,100,-121.37994,39.43227,Wildfire,False,True,"Gold Mountain Rd and Stoney Oaks Blvd, northeast of Bangor"
+Casino Fire,True,2020-07-13T15:08:00Z,Riverside,91,100,-116.83552,33.48429,Wildfire,False,True,"Hwy 371 and Santos Rd, south of Anza"
+Mineral Fire,True,2020-07-13T16:40:36Z,Fresno,29667,100,-120.52193,36.09493,Wildfire,False,True,"Hwy 198 and S Coalinga Mineral Springs Rd, west of Coalinga"
+Coyote Fire,True,2020-07-15T14:04:08Z,San Benito,1508,100,-121.04401,36.653,Wildfire,False,True,"Panoche Road and Coyote Creek, West of Panoche"
+Ben Fire,True,2020-07-15T16:44:16Z,Mariposa,48,100,-119.95807,37.42319,Wildfire,False,True,"Ben Hur Road and Buckeye Road, South of Mariposa  "
+Valley Fire ,True,2020-07-15T17:18:23Z,Yuba,500,100,-121.33589,39.10112,Wildfire,False,False,"Spenceville Road and Gandry Drive, Southeast of Beale Air Force base "
+Hollow Fire,True,2020-07-16T18:14:18Z,Alameda,253,100,-121.59374,37.64044,Wildfire,False,True,"Tesla Road and McLaughlin Road, Southeast of Livermore"
+Pitzer Fire,True,2020-07-17T14:59:54Z,San Bernardino,119,100,-116.97557,34.39464,Wildfire,False,True,"Pitzer Buttes Road and Power line Road,  South of Lucerne Valley "
+Badger Fire,True,2020-07-18T17:18:20Z,Siskiyou,557,100,-122.69296,41.79319,Wildfire,False,True,Badger Mountain Road and Hawkinsville Humbug Road
+Hog Fire,True,2020-07-18T17:28:18Z,Lassen,9564,100,-120.86375,40.420886,Wildfire,False,True," Hog Flat Reservoir, West of Susanville"
+Platina Fire,True,2020-07-19T17:05:41Z,Shasta,340,100,-122.792645,40.462621,Wildfire,False,True,"Platina Rd and Big Foot Rd, southwest of Redding"
+Gold Fire,True,2020-07-20T14:12:25Z,Lassen,22634,100,-120.923293,41.11037,Wildfire,False,True,"Highway 139 and County Road A-2, South of Adin"
+Milepost 21 Fire,True,2020-07-20T15:44:53Z,Humboldt,100,100,-123.6986222,41.1849445,Wildfire,False,False,"Highway 96 and Deerhorn Rd, southeast of Weitchpec"
+Feather Fire,True,2020-07-20T16:09:57Z,Butte,30,100,-121.604579,39.506597,Wildfire,False,True,"Feather Ave and 18th Street, Oroville"
+Holland Fire ,True,2020-07-20T18:04:37Z,Contra Costa,75,100,-121.620238,37.977309,Wildfire,False,False,"Delta Rd and Holland Tract Rd, northeast of Brentwood"
+Easton Fire,True,2020-07-20T19:10:36Z,San Bernardino,71,100,-117.192142,34.135626,Wildfire,False,False,"Highway 330 and East Highland Avenue, Northeast of San Bernardino"
+Rabbit Fire ,True,2020-07-20T19:15:32Z,Madera,135,100,-119.932391,37.118075,Wildfire,False,True,"Road 603 and Road 600, East of Chowchilla"
+Iris Fire,True,2020-07-21T19:26:58Z,Mono,120,100,-118.711135,37.518879,Wildfire,False,False,"Iris Meadow and Rock Creek Rd, South of Crowley Lake"
+Jack Fire,True,2020-07-24T17:32:36Z,Riverside,145,100,-117.033124,33.93327,Wildfire,False,True,"Hwy 60 and Jackrabbit Trail, West of Beaumont"
+Hill Fire,True,2020-07-24T17:47:17Z,Colusa,138,100,-122.359663,39.013591,Wildfire,False,True,"Highway 20 and Highway 16, East of Wilbur Springs"
+Karen Fire,True,2020-07-25T18:16:54Z,Riverside,250,100,-117.429598,34.028116,Wildfire,False,True,Sierra Avenue and Karen Lane in Riverside County. 
+Ione Fire ,True,2020-07-26T12:57:35Z,Sacramento,51,100,-121.044895,38.420382,Wildfire,False,True,Ione Road at North end of Carbondale road in Sacramento County. 
+Ridge Fire,True,2020-07-27T17:19:21Z,Los Angeles,321,100,-118.72004,34.75844,Wildfire,False,False,Old Ridge Route Rd in the community of Quail Lake
+Lincoln Fire,True,2020-07-27T18:50:25Z,Humboldt,25,100,-124.19954,40.78804,Wildfire,False,False,"Bendixsen Street and Simpson Private Road, Samoa"
+Branch Fire,True,2020-07-28T14:59:38Z,San Luis Obispo,3022,100,-120.00521,35.35146,Wildfire,False,True,"Hwy 58 and Soda Lake Rd, California Valley"
+Brook Fire,True,2020-07-29T17:24:17Z,San Bernardino,185,100,-117.45479,34.25143,Wildfire,False,False,Keenbrook Rd and Cajon Blvd
+Clay Fire,True,2020-07-29T18:05:20Z,Sacramento,730,100,-121.17197,38.40329,Wildfire,False,True,Clay Station Road and Momtoma Lane
+Rabbit Fire,True,2020-07-30T14:40:11Z,Riverside,104,100,-117.034461,33.934137,Wildfire,False,True,Hwy 60 and Jack Rabbit Trail
+Sheep Fire,True,2020-07-30T16:14:47Z,Kern,233,100,-118.7933,35.14357,Wildfire,False,False,"Comanche Point Rd, south east of Bakersfield "
+Pond Fire,True,2020-08-01T18:44:52Z,San Luis Obispo,1962,99,-120.47346,35.43128,Wildfire,False,True,"Kata Creek Road and Oak Creek Place, East of Santa Margarita"
+Sophia Fire,True,2020-08-02T09:12:41.207Z,El Dorado,36,100,-121.103299,38.686478,Wildfire,False,True,Sophia Park Way and Alexandra Dr near El Dorado Hills in El Dorado County. 
+Water Fire,True,2020-08-02T15:11:20Z,Riverside,52,100,-116.641846,33.924086,Wildfire,False,True,Whitewater Canyon Road at the Whitewater Preserve In Riverside County. 
+North Fire,True,2020-08-02T16:51:26Z,Lassen,6882,100,-120.44811,40.36764,Wildfire,False,False,"Highway 395 and Highway 70, east of Chilcoot in Lassen County, "
+Sites Fire ,True,2020-08-02T17:13:36Z,Colusa,560,100,-122.48525,39.31313,Wildfire,False,True,"Sites Lodoga Road and Campground Road, Southeast of Stonyford in Colusa County. "
+Post Fire,True,2020-08-02T20:49:07Z,Los Angeles,120,100,-118.21608,34.04447,Wildfire,False,True,"NB I-5 and High way 138, South of Gorman in Los Angeles County. "
+Beale Fire,True,2020-08-02T22:24:59Z,Yuba,600,100,-121.38178,39.11307,Wildfire,False,False,"Doolittle Dr. and Warren Shingle Road, near Beale Air Force Base in Yuba County. "
+Elsmere Fire,True,2020-08-03T15:45:29Z,Los Angeles,200,100,-118.49731,34.3428,Wildfire,False,False,"Elsmere Grapevine Rd and Santa Clarita Truck Trail, Newhall"
+Stagecoach Fire,True,2020-08-03T17:33:03Z,Kern,7760,100,-118.53361,35.43044,Wildfire,False,True,Stagecoach Drive and Piute Meadow Road South of Lake Isabella in Kern County. 
+Pass Fire,True,2020-08-04T17:18:17Z,San Luis Obispo,280,100,-120.40457,35.61521,Wildfire,False,True,"Hwy 41, northeast of Shandon"
+Fort Fire,True,2020-08-06T08:24:00Z,Kern,277,100,-118.92967,34.93929,Wildfire,False,True,Grapevine Rd and I-5
+Mina Fire,True,2020-08-10T18:31:57Z,Mendocino,177,100,-123.262437,39.82454,Wildfire,False,True,Hopper Ln and Crawford Rd
+Duluth Fire,True,2020-08-10T18:58:13Z,Placer,65,100,-121.318472,38.81111,Wildfire,False,False,Duluth Ave and Nichols Dr
+R-1 Fire,True,2020-08-11T07:37:23Z,Lassen,285,100,-120.549595,40.590714,Wildfire,False,False,Horse Lake Mountain
+Soda Fire,True,2020-08-12T11:43:49Z,Kern,424,100,-119.444977,34.962524,Wildfire,False,False,"Soda Lake Rd and Hwy 33, south of Maricopa"
+Lake Fire,True,2020-08-12T17:13:02Z,Los Angeles,31089,100,-118.452,34.679,Wildfire,False,False,"Lake Hughes Rd and Prospect Rd, southwest Lake Hughes "
+Carrizo Fire,True,2020-08-12T19:12:15Z,San Luis Obispo,183,100,-119.987565,35.308259,Wildfire,False,True,Soda Lake rd and Belmont Trail
+Meiss Fire,True,2020-08-13T17:01:18Z,Sacramento,512,100,-121.172572,38.474502,Wildfire,False,True,"Dillard Rd and Meiss Rd, southwest of Rancho Murieta"
+Clark Fire,True,2020-08-14T17:55:25Z,Butte,110,100,-121.633994,39.647686,Wildfire,False,True,"Durham Pentz Road and Clark Road, southwest of Pentz in Butte County. "
+Loyalton Fire,True,2020-08-14T18:52:58Z,Sierra,47029,100,-120.143473,39.702438,Wildfire,False,False,Mount Ina Coolbrith East of Loyalton in Sierra County. 
+Whale Fire,False,2020-08-15T13:21:11Z,San Luis Obispo,312,100,-120.856731,35.472114,Wildfire,False,True,"Old Creek Road and Sant Rita Road, north of Cayucos in San Luis Obispo County. "
+3-2 Fire,True,2020-08-16T07:56:39Z,San Luis Obispo,20,100,-120.801074,35.519723,Wildfire,False,True,"Sunrise Ridge Rd and Santa Rita Rd, East of Cayucos"
+Elk Fire,True,2020-08-16T10:14:46Z,Glenn,727,100,-122.427358,39.52452,Wildfire,False,True,west of Willows
+Jones Fire,True,2020-08-17T06:50:32Z,Nevada,705,100,-121.100352,39.29241,Wildfire,False,True,"Jones Bar Rd, Yuba River Drainage, northwest of Nevada City"
+Beach Fire ,True,2020-08-17T12:31:38Z,Mono,0,0,-119.010655,37.919382,Wildfire,False,False,"Hwy 120 and Forest Road 1N23, south of Mono Lake"
+4-8 Fire,True,2020-08-17T14:16:58Z,Glenn,275,100,-122.5012461,39.555943,Wildfire,False,True,"Highway 162 and County Road 302, west of Willows"
+Murphy Fire,True,2020-08-17T20:06:44Z,El Dorado,14,100,-120.876546,38.840068,Wildfire,False,True,"Johntown Creek Road, Garden Valley"
+CZU Lightning Complex (Including Warnella Fire) ,True,2020-08-16T06:41:00Z,"Santa Cruz, San Mateo",86509,100,-122.22275,37.17162,Wildfire,False,True,Various locations across San Mateo and Santa Cruz Counties
+SCU Lightning Complex,True,2020-08-18T09:25:25Z,"Santa Clara, Alameda, Contra Costa, San Joaquin, Stanislaus",396624,100,-121.30435,37.439437,Wildfire,False,True,"Multiple locations throughout Santa Clara County, Alameda County, Contra Costa County, San Joaquin County, Merced and Stanislaus County"
+3-19 Fire,False,2020-08-18T15:27:56Z,Mendocino,62,100,-123.013667,39.276,Wildfire,False,True,Burris Lane in Potter Valley
+Creek Fire,True,2020-08-18T17:58:52Z,Mendocino,820,100,-123.2111007,39.8174372,Wildfire,False,True,"Covelo, Highway 162 and Short Creek Rd"
+"LNU Lightning Complex (includes Hennessey, Gamble, 15-10, Spanish, Markley, 13-4, 11-16, Walbridge)",True,2020-08-17T06:40:00Z,"Napa, Sonoma, Lake, Yolo, Solano",363220,100,-122.14864,38.48193,Wildfire,False,True,See details below
+Butte/Tehama/Glenn Lightning Complex (Tehama/Glenn Zone) ,True,2020-08-19T09:12:42Z,"Tehama, Glenn",19609,100,-122.4393,40.09571,Wildfire,False,True,Southwest of Red Bank Rd
+Flint Fire,True,2020-08-19T16:44:58Z,Calaveras,55,100,-120.85258,38.03106,Wildfire,False,True,Flint St and Rock Creek Rd
+Moc Fire,True,2020-08-20T14:26:08Z,Tuolumne,2857,100,-120.312565,37.813779,Wildfire,False,True,"Hwy 49 and Hwy 120, Moccasin"
+Volcano Fire,True,2020-08-20T16:18:49Z,San Diego,45,100,-117.328234,33.454896,Wildfire,False,True,"De Luz Rd and Tenaja Truck Trail, west of Temecula City"
+Coyote Fire,True,2020-08-21T14:36:08Z,Santa Clara,143,100,-121.68465,37.18725,Wildfire,False,True,Monterey Rd and Coyote Creek Golf Dr
+Sheep Fire ,True,2020-08-22T22:02:57Z,Plumas,29570,100,-120.757,40.274,Wildfire,False,True,"Gold Run Road, Southwest of Susanville in Plumas County. "
+W-5 Cold Springs,True,2020-08-23T08:24:24Z,Lassen,0,0,-120.281389,41.028611,Wildfire,False,False,"Cold Spring Road, West of Cold Spring Mountain "
+Woodward Fire,True,2020-08-18T14:27:00Z,Marin,4929,100,-122.836701,38.018089,Wildfire,False,False,"Woodward Valley Trail, East of Olema"
+Johnson Fire ,True,2020-08-28T16:21:25Z,Los Angeles,290,100,-118.36411,34.65979,Wildfire,False,False,"Johnson Road and Limeridge Dr, East of Elizabeth Lake in Los Angeles County"
+Hensley Fire ,True,2020-08-30T11:11:55Z,Madera,688,100,-119.88673,37.08053,Wildfire,False,True,"Road 400 and Road 406, south of Hensley Lake in Madera County"
+Hobo Fire ,True,2020-09-01T09:37:58Z,Trinity,0,0,-123.12461,40.82126,Wildfire,False,False,"East Fork Rd and Barney Gulch Rd, north of Helena"
+Catholic Fire,True,2020-09-01T17:34:38Z,Lake,13,100,-122.637037,39.012743,Wildfire,False,True,"Highway 20 and Catholic Church Rd, east of Clearlake Oaks"
+Valley Fire,True,2020-09-05T16:02:32Z,San Diego,16390,100,-116.692705,32.765615,Wildfire,False,False,"Japatul Road and  Carveacre Road, Southeast of Alpine"
+Oak Fire,True,2020-09-07T13:26:45Z,Mendocino,1100,100,-123.3965,39.4935,Wildfire,False,True,"West of Highway 101--Big John Road & Skyview Road, Brooktrails Township, Willits"
+Willow Fire,True,2020-09-09T06:04:43Z,Yuba,1311,100,-121.32361,39.3637,Wildfire,False,True,"Neptune Lane and Willow Glen Road, North of Smartville "
+Sperry Fire,True,2020-09-08T22:27:00Z,Stanislaus,45,100,-121.18018000000001,37.46377,Wildfire,False,True,"Interstate 5 and Sperry Road, West of Patterson "
+Schoolhouse Fire,True,2020-09-09T15:59:31Z,Siskiyou,45,100,-122.84057,41.68229,Wildfire,False,True,Schoolhouse Gap Rd And McAdams Creek Rd
+Shackleford Fire,True,2020-09-11T10:05:44Z,Siskiyou,50,100,-123.021635,41.575549,Wildfire,False,True,"Shackleford Rd, southwest of Quartz Valley Reservation"
+Fox Fire,True,2020-09-16T11:08:31Z,Siskiyou,2188,100,-122.847359,41.211022,Wildfire,False,False,"Fox Creek, Southwest of Callahan "
+San Antonio Fire ,True,2020-09-16T16:00:33Z,Santa Barbara,111,100,-120.491594,34.773809,Wildfire,False,False,"Vandenberg Road and San Antonio Road, Vandenberg Air Force Base in Santa Barbara County. "
+Zogg Fire,True,2020-09-27T16:03:27Z,"Shasta, Tehama",56338,100,-122.56656,40.53927,Wildfire,False,True,"Zogg Mine Road and Jenny Bird Lane, North of Igo"
+Martindale Fire ,True,2020-09-28T17:08:09Z,Los Angeles,230,100,-118.4,34.563,Wildfire,False,False,"Bouquet Canyon Road, East of Hawthorne"
+Candy Fire,True,2020-09-29T13:32:00Z,Riverside,227,100,-117.374419,33.764357,Wildfire,False,True,"Gavilan Road and Lake Mathews Dr, Perris in Riverside County."
+Copper Fire ,True,2020-09-30T13:09:00Z,Amador,48,100,-121.003602,38.49375,Wildfire,False,True,"Copper Hill Rd. off Hwy 16, east of Rancho Murieta"
+Pony Fire,True,2020-10-03T15:38:00Z,Sacramento,20,100,-121.039236,38.464074,Wildfire,False,True,"Pony Brown Rd and Ione Rd, Sloughhouse"
+Lambert Fire,True,2020-10-04T12:46:20Z,Amador,21,100,-121.006635,38.424016,Wildfire,False,True,"Lambert Road and Carbondale Road, North of Carbondale"
+Fields Fire ,True,2020-10-07T06:06:33Z,Yuba,56,100,-121.450982,39.181047,Wildfire,False,True,"Gold Field Road and Hammonton Road, Northeast of Marigold "
+Irvine Fire,True,2020-10-11T18:04:00Z,Contra Costa,30,100,-122.104314,37.821737,Wildfire,False,True,Irvine Drive in Moraga 
+Diamond Fire,True,2020-10-13T14:31:29Z,Calaveras,21,100,-120.64541,37.98337,Wildfire,False,True,"Highway 4 and Main Street, North of Copperopolis"
