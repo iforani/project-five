@@ -1,4 +1,4 @@
-All the covid data comes from the [Jonh Hopikins Resourse Center](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data)
+All the covid data comes from the [Jonh Hopkins Resourse Center](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data)
 
 Name|Data Type|Description
 ---|---|---
