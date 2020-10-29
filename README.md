@@ -15,7 +15,12 @@ There is a shortage of tools available for looking at the combined effect of the
 ---
 2. Description of Data:
 
-We used various sources for collection of the data, and data regardless of the source reflect information for 2020 only. We relied on the aggregated data from [Jonh Hopkins Resourse Center](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data) for COVID-19. Jonh Hopkins update their data daily. We collected [covid data](./data/california_covid.csv) on the most recent data as of October 17, 2020.
+We used various sources for collecting our data, and data regardless of the source reflect information for 2020 only. We relied on the aggregated data from [Jonh Hopkins Resourse Center](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data) for COVID-19. Jonh Hopkins update their data daily. We collected [covid data](./data/california_covid.csv) on the most recent data as of October 17, 2020.  
+Most 
+
+
+3. Executive Summary:
+
 
 
 
