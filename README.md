@@ -6,6 +6,17 @@
 ---
 ## Executive Statement
 ---
+Table of Content:
+1. Problem Statement
+2. Description of Data
+    * Data Dictionary
+3. Disasters Analysis
+    * Wildfires
+    * Earthquakes
+    * COVID-19
+    * All three combined
+4. Risk Map
+5. Conclusion
 
 ### 1. Problem Statement:
 
@@ -76,7 +87,16 @@ earthquakes_score|integer|a score representing earthquake danger in each couny: 
 ---
 ### 3. Per Disaster Analysis
 
-**Wildires**
+**Wildires**  
 The wildfires in california have been quite devasting in recent years, and 2020 has been another such catastrophic year. As of October 17, 2020, there have been 202 fires, and 19 of those are still active. The fires have also claimed the lifes of 31[[1]](https://www.fire.ca.gov/incidents/2020/). Three percent of all land in Californed has burned so far. This amounts to a total of 3,549,923 acres.
-Not each county has been affected equally, and Riverside county in particular has been hit hard. There has been a total 18 wildfires, and one is still active.
+Not each county has been affected equally, and Riverside county in particular has been hit the hardest. There has been a total 18 wildfires, and one is still active. As seen in the below figure, 
+
+![Fire Risk Index Per County](./figures/????Minoo)
+
+These risk indices can be easy visualized in the map below.
+![Fire Risk Index Map](./figures/???Minoo)
+
+**Earthquakes**  
+
+
 
