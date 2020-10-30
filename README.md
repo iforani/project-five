@@ -1,37 +1,45 @@
 # ![](https://steamuserimages-a.akamaihd.net/ugc/169290952006835944/8BC46820ACB1EAE698718B98A256ED5AAC1C54D7/?imw=128&imh=72&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true) 
 
 # Project 5:  Risk Assesment Due to COVID-19, Wildfires, and Earthquakes in California
-#### By: Emiko, Minoo, and Cameron
+#### By: Emiko Sano, Minoo Taghavi, and Cameron Vann
 
 ---
 ## Executive Statement
 ---
 Table of Content:
-1. Problem Statement
-2. Description of Data
-    * Data Dictionary
-3. Disasters Analysis
-    * Wildfires
-    * Earthquakes
-    * COVID-19
-    * All three combined
-4. Risk Map
-5. Conclusion
+1. [Problem Statement](#problem)
+2. [Description of Data](#data)
+    * [Wildfires](#fire_data)
+    * [Earthquakes](#earthquake_data)
+    * [COVID-19](#covid_data)
+    * [Data Dictionary](#dictionary)
+3. [Disasters Analysis](#disasters)
+    * [Wildfires](#fires)
+    * [Earthquakes](#earthquakes)
+    * [COVID-19](#covid)
+    * [All three combined](#combined)
+4. [Risk Map](#map)
+5. [Conclusion](#conclusion)
 
+<a id = problem> </a>
 ### 1. Problem Statement:
 
 The COVID-19 global pandemic has impacted all of our communities. In some areas, the impact of the pandemic has been exasperated by other natural disasters. In the state of California, wildfires have been devasating in recent years. Being part of the ring of fire and laying on top of large number of faults, earthquakes are also a constant threat.
 There is a shortage of tools available for looking at the combined effect of the pandemic and other natural disasters. This makes it challenging for decision makers to assess risk and make appropriate prepardness plans. Here, we will provide a tool to visualize the concurrence of COVID-19 hot spots, wildfires, and earthquakes in California.
 
 ---
+<a id = data> </a>
 ### 2. Description of Data:
 
 We used various sources for collection of the data, and regardless of the source, the data reflect information for 2020 only.   
+<a id = covid_data> </a>
+**COVID-19**:  
 We relied on the aggregated data from [Jonh Hopkins Resourse Center](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data) for COVID-19. Jonh Hopkins update their data daily. We collected [covid data](./data/california_covid.csv) on the most recent data as of October 17, 2020.  
 [Wildfire data](./data/fire_data.csv) were collected from [Cal Fire](https://www.fire.ca.gov) on October 17, 2020. Some data were updated using [InciWeb](https://inciweb.nwcg.gov) and [San Francisco Chronicle Fire Tracker](https://www.sfchronicle.com/projects/california-fire-map/) during our exploratory analysis.    
 Earthquake data were obtained from [Center for Engineering Strong Motion Data](https://strongmotioncenter.org/) for the lastest as of October 19, 2020.   
 All three datasets were combined into a single dataset that represents all events per county-level. In order to summarize them to the county-level, fire data and earthquake data needed to be manipulated slightly differently (the covid dataset is already represented per county).  
-**Fire**:
+<a id = fire_data> </a>
+**Wildfire**:  
 First, we classified each fire based on the acres burned by the fire. The classifications and labels are as follows:   
 
 | Acres Burned | Label
@@ -43,9 +51,9 @@ First, we classified each fire based on the acres burned by the fire. The classi
 | 800,000 to 1,000,000 | 5
 | above 1,000,000 | 6
 
-We then calculated the number of fires per county. For fires that affect multiple counties, the fire would counted in each county. Fire risk scores were then calculated taking into account the extent of each fire based on the acres burned and whether they are currently active. Each event was multiplied by the corresponding event label. This manipulation is intended to add a weight to the fire based on the extent of the fire. Fires were also classified based on whether they were active (label = `1`) or not (label = `0`). Again, each event was weighted based on this categories. The final score was calcaluted by adding the weighted values for all the events in each county.
-
-**Earthquake**:
+We then calculated the number of fires per county. For fires that affect multiple counties, the fire would counted in each county. Fire risk scores were then calculated taking into account the extent of each fire based on the acres burned and whether they are currently active. Each event was multiplied by the corresponding event label. This manipulation is intended to add a weight to the fire based on the extent of the fire. Fires were also classified based on whether they were active (label = `1`) or not (label = `0`). Again, each event was weighted based on this categories. The final score was calcaluted by adding the weighted values for all the events in each county.  
+<a id = earthquake_data> </a>
+**Earthquake**:  
 Similar to the wildfire riks scores, we first classified earthquakes based on the magnitude. We based our classifications on [Michigan Tech's USSeis](http://www.geo.mtu.edu/UPSeis/magnitude.html). These categories and their corresponding labels are as follows:
 
 | Class | Label | Magnitude 
@@ -59,7 +67,7 @@ Similar to the wildfire riks scores, we first classified earthquakes based on th
 The final earthquake risk scores were caluculated by the sum of all the weighted events (earthquake occurres).
 
 These summarized values and scores were then appended to the COVID-19 dataset (that was already per county) to generate the dataset that we used for further analysis. The keys for this dataset are represented in the data dictionary below.
-
+<a id = dictionary> </a>
 Name|Data Type|Description
 ---|---|---
 fibs|float|federal information processing standards code for county indentification
@@ -85,18 +93,53 @@ earthquakes_per_county_in_2020|integer|number of earthquakes in 2020 per county
 earthquakes_score|integer|a score representing earthquake danger in each couny: this is the sum of weighted events. The weights are determined based on the magnitude of the earthquake.
 
 ---
-### 3. Per Disaster Analysis
-
-**Wildires**  
+<a id = disasters> </a>
+### 3. Disaster Analysis
+<a id = fires> </a>
+**Wildires**   
 The wildfires in california have been quite devasting in recent years, and 2020 has been another such catastrophic year. As of October 17, 2020, there have been 202 fires, and 19 of those are still active. The fires have also claimed the lifes of 31[[1]](https://www.fire.ca.gov/incidents/2020/). Three percent of all land in Californed has burned so far. This amounts to a total of 3,549,923 acres.
-Not each county has been affected equally, and Riverside county in particular has been hit the hardest. There has been a total 18 wildfires, and one is still active. As seen in the below figure, 
+Not each county has been affected equally, and Riverside county in particular has been hit the hardest. There has been a total 18 wildfires, and one is still active. As seen in the below figure. **Minoo maybe add some more here?**
 
-![Fire Risk Index Per County](./figures/????Minoo)
+![Fire Risk Index Per County](./figures/fire_index_county.png)
 
 These risk indices can be easy visualized in the map below.
 ![Fire Risk Index Map](./figures/???Minoo)
+<a id = earthquakes> </a>
 
 **Earthquakes**  
+California is part of the ring of fire, so earthquakes are frequent and have the potential for catastrophic results. 2020 has recorded 200 earthquakes with most of them being of relatively low magnitude which we can see in the distribution plot below. **cameron maybe add some more here?**  
+![Earthquake Magnitude Distribution](./figures/magnitude_distribution.png)
 
+When scored the counties based on the indeces that we created, Imperial county has been affected the most this year.
+![Earthquake Risk Index](./figures/earthquake_index_county.png)
 
+Similarly, we observe these in a map at the county-level.
+![Earthquake Risk Index Map](./figures/??)
+
+<a id = covid> </a>
+**COVID-19**  
+California is not alone in that the impact of COVID-19 is not uniform acorss locations. Different counties have more cases or deaths. At the county-level, Imperial county has the highest per capita cases and deaths.
+![COVID Cases per Capita](./figures/covid_confirmed_capita.png)
+![COVID Deaths per Capita](./figures/covid_death_capita.png)
+
+Our map also demonstrates these differences at the county label.
+![COVID Death Map](./figures/???)
+
+However, when we look at the counties that has the highest deaths per COVID-19 case per capita, Inyo county rises to the top. Inyo county is a relatively rural area. We suspect that absence of a large hospitals nearby and poverty are contributing to this high mortality rate.
+![COVID Death per Case per Capita](./figures/covid_case_death_capita.png)
+
+This last result perhaps demonstrates the sad reality of how COVID-19 is affecting the poor and rural areas harder once it reaches those communities.
+
+<a id = combined> </a>
+**Combined Risk**  
+something here. **Cameron?**
+
+<a id = map> </a>
+4. Risk Map
+This [map](minoo-link?) can be used by the user to identify the risk of their interst. **Minoo, maybe add more here?**
+
+<a id = conclusion> </a>
+5. Conclusions
+We made great maps (as in Minoo did) with a great model (Cameron).
+**Both of you, do you want to take care this part?**
 
