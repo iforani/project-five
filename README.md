@@ -42,55 +42,56 @@ All three datasets were combined into a single dataset that represents all event
 **Wildfire**:  
 First, we classified each fire based on the acres burned by the fire. The classifications and labels are as follows:   
 
-| Acres Burned | Label
-| --- | --- 
-| less than 200,000 | 1
-| 200,000 to 400,000 | 2
-| 400,000 to 600,000 | 3
-| 600,000 to 800,000 | 4
-| 800,000 to 1,000,000 | 5
-| above 1,000,000 | 6
+| Acres Burned | Label|
+| --- | --- |
+| less than 200,000 | 1|
+| 200,000 to 400,000 | 2|
+| 400,000 to 600,000 | 3|
+| 600,000 to 800,000 | 4|
+| 800,000 to 1,000,000 | 5|
+| above 1,000,000 | 6|
 
 We then calculated the number of fires per county. For fires that affect multiple counties, the fire would counted in each county. Fire risk scores were then calculated taking into account the extent of each fire based on the acres burned and whether they are currently active. Each event was multiplied by the corresponding event label. This manipulation is intended to add a weight to the fire based on the extent of the fire. Fires were also classified based on whether they were active (label = `1`) or not (label = `0`). Again, each event was weighted based on this categories. The final score was calcaluted by adding the weighted values for all the events in each county.  
 <a id = earthquake_data> </a>
 **Earthquake**:  
 Similar to the wildfire riks scores, we first classified earthquakes based on the magnitude. We based our classifications on [Michigan Tech's USSeis](http://www.geo.mtu.edu/UPSeis/magnitude.html). These categories and their corresponding labels are as follows:
 
-| Class | Label | Magnitude 
-| --- | --- | --- 
-| Great| 5 | 8 or more 7 - 7.9 
-| Strong| 4 | 6 - 6.9
-| Moderate| 3 | 5 - 5.9
-| Light| 2 | 4 - 4.9
-| Minor| 1 | 3 - 3.9
+| Class | Label | Magnitude |
+| --- | --- | --- |
+| Great| 5 | 8 or more 7 - 7.9 |
+| Strong| 4 | 6 - 6.9|
+| Moderate| 3 | 5 - 5.9|
+| Light| 2 | 4 - 4.9|
+| Minor| 1 | 3 - 3.9|
 
 The final earthquake risk scores were caluculated by the sum of all the weighted events (earthquake occurres).
 
 These summarized values and scores were then appended to the COVID-19 dataset (that was already per county) to generate the dataset that we used for further analysis. The keys for this dataset are represented in the data dictionary below.
 <a id = dictionary> </a>
-Name|Data Type|Description
----|---|---
-fibs|float|federal information processing standards code for county indentification
-county|string|county name
-province_state|string|state name
-covid_last_update|string|data of last update for covid data in UTC
-county_latitude|float|county latitude information
-county_longitude|float|county longitude information
-covid_confirmed|integer|number of confirmed COVID-19 cases (includes probable)
-covid_death|integer|number of death due to COVID-19 (includes probable)
-covid_recovered|integer|number of recovered COVID-19 cases (these are estimates and may be inaccurate)
-covid_active|integer|number of active COVID-19 cases calculated from total cases - total recovered - total deaths
-covid_incidence_rate|float|incidence rate of COVID-19 cases; cases per 100,000 persons.
-covid_case_fatality_ratio|float|case-fatality ratio; number of deaths/number of cases
-county_population|integer|population of the county
-covid_death_per_capita|float|number of death per capita due to COVID-19 (deaths/county population)
-covid_confirmed_per_capita|float|number of confirmed COVID-19 cases per capita (confirmed cases/county population)
-covid_active_cases_per_capita|float|number of active COVID-19 cases per capita (active cases/county population)
-fire_per_county_in_2020|integer|number of fires in 2020 per county (includes both inactive and active fires)
-active_fires_per_county|integer|number of active fires per county
-fire_score|integer|a score represeneting fire danger in each county: this is the sum of weighted events. The weight is determined based on the extent of fire and whether it is an active fire or not.
-earthquakes_per_county_in_2020|integer|number of earthquakes in 2020 per county
-earthquakes_score|integer|a score representing earthquake danger in each couny: this is the sum of weighted events. The weights are determined based on the magnitude of the earthquake.
+
+|Name|Data Type|Description|
+|---|---|---|
+|fibs|float|federal information processing standards code for county indentification|
+|county|string|county name|
+|province_state|string|state name|
+|covid_last_update|string|data of last update for covid data in UTC|
+|county_latitude|float|county latitude information|
+|county_longitude|float|county longitude information|
+|covid_confirmed|integer|number of confirmed COVID-19 cases (includes probable)|
+|covid_death|integer|number of death due to COVID-19 (includes probable)|
+|covid_recovered|integer|number of recovered COVID-19 cases (these are estimates and may be inaccurate)|
+|covid_active|integer|number of active COVID-19 cases calculated from total cases - total recovered - total deaths|
+|covid_incidence_rate|float|incidence rate of COVID-19 cases; cases per 100,000 persons.|
+|covid_case_fatality_ratio|float|case-fatality ratio; number of deaths/number of cases|
+|county_population|integer|population of the county|
+|covid_death_per_capita|float|number of death per capita due to COVID-19 (deaths/county population)|
+|covid_confirmed_per_capita|float|number of confirmed COVID-19 cases per capita (confirmed cases/county population)|
+|covid_active_cases_per_capita|float|number of active COVID-19 cases per capita (active cases/county population)|
+|fire_per_county_in_2020|integer|number of fires in 2020 per county (includes both inactive and active fires)|
+|active_fires_per_county|integer|number of active fires per county|
+|fire_score|integer|a score represeneting fire danger in each county: this is the sum of weighted events. The weight is determined based on the extent of fire and whether it is an active fire or not.|
+|earthquakes_per_county_in_2020|integer|number of earthquakes in 2020 per county|
+|earthquakes_score|integer|a score representing earthquake danger in each couny: this is the sum of weighted events. The weights are determined based on the magnitude of the earthquake.|
 
 ---
 <a id = disasters> </a>
@@ -107,7 +108,7 @@ These risk indices can be easy visualized in the map below.
 <a id = earthquakes> </a>
 
 **Earthquakes**  
-California is part of the ring of fire, so earthquakes are frequent and have the potential for catastrophic results. 2020 has recorded 200 earthquakes with most of them being of relatively low magnitude which we can see in the distribution plot below. **cameron maybe add some more here?**  
+California is part of the ring of fire, so earthquakes are frequent and have the potential for catastrophic results. 2020 has recorded 200 earthquakes with most of them being of relatively low magnitude which we can see in the distribution plot below. It is at a magnitude of approxiamtely 3.5 that we begin to feel the earth tremble.  As we increase from that level the chances for damage to be done increases. 
 ![Earthquake Magnitude Distribution](./figures/magnitude_distribution.png)
 
 When scored the counties based on the indeces that we created, Imperial county has been affected the most this year.
@@ -119,20 +120,27 @@ Similarly, we observe these in a map at the county-level.
 <a id = covid> </a>
 **COVID-19**  
 California is not alone in that the impact of COVID-19 is not uniform acorss locations. Different counties have more cases or deaths. At the county-level, Imperial county has the highest per capita cases and deaths.
+
 ![COVID Cases per Capita](./figures/covid_confirmed_capita.png)
+
 ![COVID Deaths per Capita](./figures/covid_death_capita.png)
 
 Our map also demonstrates these differences at the county label. 
 ![COVID Death Map](./figures/COVID19.png)
 
 However, when we look at the counties that has the highest deaths per COVID-19 case per capita, Inyo county rises to the top. Inyo county is a relatively rural area. We suspect that absence of a large hospitals nearby and poverty are contributing to this high mortality rate.
+
 ![COVID Death per Case per Capita](./figures/covid_case_death_capita.png)
 
 This last result perhaps demonstrates the sad reality of how COVID-19 is affecting the poor and rural areas harder once it reaches those communities.
 
 <a id = combined> </a>
-**Combined Risk**  
-something here. **Cameron?**
+**Combined Risk** 
+
+Through the use of Priniciple Componenet Analysis and KMeans clustering we were able to construct an algorithm and build a model that allowed us to
+assign a risk index to the counties of California.  The higher the county scored on the index the more risky it was/is to be there.  That risk index was then used to 
+construct a map that reflected the danger associated with all these disasters as it related to each county.
+
 
 <a id = map> </a>
 ### 4. Risk Map
@@ -141,7 +149,12 @@ This [California Risk Index for Covid-19, Fire and Earthquake](https://www.arcgi
 ![California Risk Index for Covid-19, Fire and Earthquake](./figures/california.png)
 
 <a id = conclusion> </a>
-### 5. Conclusions
-We made great maps with a great model with clusters. 
-**cameron, do you want to take care this part?**
+
+5. Conclusions
+We made great maps (as in Minoo did) with a great model (Cameron).
+**Both of you, do you want to take care this part?**
+While our work does not show if the prevalence of natural disasters exacerbates the degreee to which a community is infected with Covid, we can almost
+certainly assume that those communities that have high combined risks have had or will have their resources stretched.  Hopefully there's a chance that a model and
+maps such as our can help people steer clear of these risky areas for their own safety as well as those in the community.  It may also serve as an indicator of
+where resources and funds need to flow to provide relief.
 
