@@ -98,12 +98,12 @@ earthquakes_score|integer|a score representing earthquake danger in each couny: 
 <a id = fires> </a>
 **Wildires**   
 The wildfires in california have been quite devasting in recent years, and 2020 has been another such catastrophic year. As of October 17, 2020, there have been 202 fires, and 19 of those are still active. The fires have also claimed the lifes of 31[[1]](https://www.fire.ca.gov/incidents/2020/). Three percent of all land in Californed has burned so far. This amounts to a total of 3,549,923 acres.
-Not each county has been affected equally, and Riverside county in particular has been hit the hardest. There has been a total 18 wildfires, and one is still active. As seen in the below figure. **Minoo maybe add some more here?**
+Not each county has been affected equally, and Riverside county in particular has been hit the hardest. There has been a total 18 wildfires, and one is still active. As seen in the below figure. As explained above, some recorded fires in the dataset have been 100% contained and some were still active. We used the number of fires, the extend of the areas that have burned and the status of fire whether it is active or contained to understand the fire dataset better. 
 
 ![Fire Risk Index Per County](./figures/fire_index_county.png)
 
-These risk indices can be easy visualized in the map below.
-![Fire Risk Index Map](./figures/???Minoo)
+These risk indices can be easy visualized in the map below. 
+![Fire Risk Index Map](./figures/Fire.png)
 <a id = earthquakes> </a>
 
 **Earthquakes**  
@@ -113,8 +113,8 @@ California is part of the ring of fire, so earthquakes are frequent and have the
 When scored the counties based on the indeces that we created, Imperial county has been affected the most this year.
 ![Earthquake Risk Index](./figures/earthquake_index_county.png)
 
-Similarly, we observe these in a map at the county-level.
-![Earthquake Risk Index Map](./figures/??)
+Similarly, we observe these in a map at the county-level. 
+![Earthquake Risk Index Map](./figures/Earthquake.png)
 
 <a id = covid> </a>
 **COVID-19**  
@@ -122,8 +122,8 @@ California is not alone in that the impact of COVID-19 is not uniform acorss loc
 ![COVID Cases per Capita](./figures/covid_confirmed_capita.png)
 ![COVID Deaths per Capita](./figures/covid_death_capita.png)
 
-Our map also demonstrates these differences at the county label.
-![COVID Death Map](./figures/???)
+Our map also demonstrates these differences at the county label. 
+![COVID Death Map](./figures/COVID19.png)
 
 However, when we look at the counties that has the highest deaths per COVID-19 case per capita, Inyo county rises to the top. Inyo county is a relatively rural area. We suspect that absence of a large hospitals nearby and poverty are contributing to this high mortality rate.
 ![COVID Death per Case per Capita](./figures/covid_case_death_capita.png)
@@ -135,11 +135,13 @@ This last result perhaps demonstrates the sad reality of how COVID-19 is affecti
 something here. **Cameron?**
 
 <a id = map> </a>
-4. Risk Map
-This [map](minoo-link?) can be used by the user to identify the risk of their interst. **Minoo, maybe add more here?**
+### 4. Risk Map
+This [California Risk Index for Covid-19, Fire and Earthquake](https://www.arcgis.com/apps/View/index.html?appid=c4e18934a3eb490b8b270f2a51b13900) can be used by the user to identify the risk of their interst. This Web Mapping Application has been created through ArcGIS online platform and there are tools which gives you the oppurtinity to play around with different layers for the combined Risk Index, Covid-19 death, Fire Risk Score and Earthquake Risk Score per capita in 2020 and search for the region you are interested to know what natural disasters are close to it. Based on the legend for the combined Risk Index for these three natural disasters, the bigger the red circle on the map, the highest the risk index will be for that specific area. 
+
+![California Risk Index for Covid-19, Fire and Earthquake](./figures/california.png)
 
 <a id = conclusion> </a>
-5. Conclusions
-We made great maps (as in Minoo did) with a great model (Cameron).
-**Both of you, do you want to take care this part?**
+### 5. Conclusions
+We made great maps with a great model with clusters. 
+**cameron, do you want to take care this part?**
 
