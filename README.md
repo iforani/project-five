@@ -150,9 +150,8 @@ This [California Risk Index for Covid-19, Fire and Earthquake](https://www.arcgi
 
 <a id = conclusion> </a>
 
-5. Conclusions
-We made great maps (as in Minoo did) with a great model (Cameron).
-**Both of you, do you want to take care this part?**
+### 5. Conclusions
+
 While our work does not show if the prevalence of natural disasters exacerbates the degreee to which a community is infected with Covid, we can almost
 certainly assume that those communities that have high combined risks have had or will have their resources stretched.  Hopefully there's a chance that a model and
 maps such as our can help people steer clear of these risky areas for their own safety as well as those in the community.  It may also serve as an indicator of
